@@ -14,6 +14,7 @@ Visually aligned but not structurally tagged
 
 The system focuses on accuracy, column integrity, and data reliability, rather than aggressive extraction.
 
+***
 Project Directory Structure
 arabicOcr/
 │
@@ -29,6 +30,7 @@ arabicOcr/
 ├── requirements.txt             # Python dependencies
 ├── README.md                    # Project documentation
 └── .gitignore                   # Git ignore rules
+***
 
 What the Application Does
 
@@ -187,3 +189,4 @@ Footnote detection is keyword-based and may require tuning for new document form
 Summary
 
 This application provides a production-ready backend for extracting structured tables from Arabic PDFs, with a strong emphasis on correctness, safety, and maintainability.
+
