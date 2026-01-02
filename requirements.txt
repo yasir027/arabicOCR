@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+pdfplumber
+camelot-py[cv]
+pdfminer.six
+python-multipart
+python-dotenv
