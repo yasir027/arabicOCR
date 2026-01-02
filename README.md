@@ -14,8 +14,12 @@ Visually aligned but not structurally tagged
 
 The system focuses on accuracy, column integrity, and data reliability, rather than aggressive extraction.
 
-***
+The system focuses on accuracy, column integrity, and data reliability,
+rather than aggressive extraction.
+
+
 Project Directory Structure
+
 arabicOcr/
 │
 ├── app/                         # Application source code
@@ -30,19 +34,16 @@ arabicOcr/
 ├── requirements.txt             # Python dependencies
 ├── README.md                    # Project documentation
 └── .gitignore                   # Git ignore rules
-***
+
 
 What the Application Does
 
-Extracts tables from Arabic PDFs using a hybrid extraction strategy
+- Extracts structured tables from Arabic-language PDF documents
+- Preserves column alignment and row integrity
+- Reconstructs fragmented Arabic numerals safely
+- Filters narrative rows and explanatory footnotes
+- Provides a FastAPI-based backend for integration and automation
 
-Preserves row and column structure
-
-Reconstructs fragmented Arabic numbers safely
-
-Filters out narrative rows and footnotes
-
-Exposes functionality via a FastAPI backend
 
 Core Extraction Strategy
 1. Lattice (Grid-Based) Extraction
@@ -189,4 +190,5 @@ Footnote detection is keyword-based and may require tuning for new document form
 Summary
 
 This application provides a production-ready backend for extracting structured tables from Arabic PDFs, with a strong emphasis on correctness, safety, and maintainability.
+
 
